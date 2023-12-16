@@ -1,0 +1,42 @@
+body  {
+    margin-top: 0 auto;
+}
+
+.table1 {
+    top: 203px;
+    left: 400px;
+    margin: 0 500px;
+    width: 220px;
+    text-align: center;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 5px;
+    border-bottom: 5px solid black;
+    border-color: black;
+    padding: 5px;
+    color: black;
+}
+
+.table2{
+    top: 135px;
+    left: 400px;
+    margin: 0 265px;
+    width: 220px;
+    text-align: center;
+    position: relative;
+    border: 3px solid black;
+    border-radius: 5px;
+    border-bottom: 5px solid black;
+    border-color: black;
+    padding: 5px;
+    color: black;
+    
+    
+}
+
+.logo {
+     margin-top: -135px;
+     
+     
+     
+}

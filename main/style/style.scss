@@ -46,14 +46,14 @@ table {
 
 header {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 20px;
 
     .logo {
         img {
-            height: 125px;
+            max-width: 410px;
+            width: 100
         }
     }
 
@@ -69,10 +69,41 @@ header {
             border: 3px solid black;
             border-radius: 8px;
             cursor: pointer;
+
+            &:hover{
+                background-color: rgba(200, 200, 200, 0.5);
+            }
+        }
+    }
+}
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+}
+.main {
+    .text-block {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+        
+        &.revert {
+            flex-direction: row-reverse;
         }
 
-        &:hover{
-            background-color: rgba(200, 200, 200, 0.5);
+        &:last-child {
+            gap: 0;
+            border-bottom: none;
+        }
+
+        img {
+            max-width: 350px;
+        }
+
+        .text {
+            padding: 20px;
+            font-size: 20px;
+            letter-spacing: 1.5;
         }
     }
 }

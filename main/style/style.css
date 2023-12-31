@@ -58,11 +58,11 @@ header {
 }
 header .logo img {
   max-width: 410px;
-  width: 100;
+  width: 120px;
 }
 header .menu {
   display: flex;
-  gap: 35px;
+  gap: 51px;
 }
 header .menu-item {
   display: inline-block;
@@ -78,7 +78,7 @@ header .menu-item:hover {
 }
 
 .container {
-  max-width: 750px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -102,4 +102,6 @@ header .menu-item:hover {
   padding: 20px;
   font-size: 20px;
   letter-spacing: 1.5;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

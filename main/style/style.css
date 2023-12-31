@@ -62,7 +62,7 @@ header .logo img {
 }
 header .menu {
   display: flex;
-  gap: 32px;
+  gap: 35px;
 }
 header .menu-item {
   display: inline-block;

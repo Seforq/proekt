@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScssLintProjectComponent">
-    <option name="scssLintExecutable" value="C:\Users\programmer\Documents\GitHub\proekt\main\style\style.css" />
-    <option name="pluginEnabled" value="true" />
-    <option name="dismissConfigurationHints" value="true" />
+    <option name="scssLintExecutable" value="C:\Users\programmer\Documents\GitHub\proekt\main\style\style.scss" />
   </component>
 </project>

@@ -48,21 +48,35 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+<<<<<<< HEAD
   padding: 30px;
 
   .logo {
     img {
       max-width: 600px;
       width: 222px;
+=======
+  padding: 20px;
+
+  .logo {
+    img {
+      max-width: 410px;
+      width: 120px;
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
     }
   }
 
   .bottom {
+<<<<<<< HEAD
     font-size: 22px;
     margin: auto;
     align-items: center;
 
 
+=======
+    align-items: center;
+    margin: auto;
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
 
     .menu {
       gap: 31px;
@@ -70,7 +84,11 @@ header {
 
       &-item {
         display: inline-block;
+<<<<<<< HEAD
         min-width: 300px;
+=======
+        min-width: 220px;
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
         padding: 20px 5px;
         text-align: center;
         border: 3px solid black;
@@ -86,9 +104,14 @@ header {
 }
  
 .container {
+<<<<<<< HEAD
     max-width: 900px;
     margin-left: 590px;
     text-align: center;
+=======
+    max-width: 700px;
+    margin: 0 auto;
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
 }
 .main {
     .text-block {
@@ -108,7 +131,15 @@ header {
 
       img {
         align-items: center;
+<<<<<<< HEAD
         max-width: 240px;
+=======
+        gap: 32px;
+        border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+
+       &.revert {
+         flex-direction: row-reverse;
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
       }
 
       .text {

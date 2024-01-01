@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ChangeListManager">
     <list default="true" id="7965134d-229f-40f7-9c5c-e74961d28422" name="Changes" comment="" />
 =======
+=======
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -14,6 +17,9 @@
       <change beforePath="$PROJECT_DIR$/main/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/style/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/style/style.scss" afterDir="false" />
     </list>
+<<<<<<< HEAD
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+=======
 >>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +30,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPEN&quot;,
@@ -39,15 +48,24 @@
       </UrlAndAccount>
     </option>
   </component>
+<<<<<<< HEAD
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+=======
 >>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
 <<<<<<< HEAD
+<<<<<<< HEAD
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2aJh2WuFw3t1UuJMcLpGXwMccl4" />
+=======
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2aJChwZMhdzxj41cx8BS5e61Qdv" />
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
 =======
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -60,6 +78,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
 <<<<<<< HEAD
+<<<<<<< HEAD
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -68,6 +87,8 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
 =======
+=======
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -76,6 +97,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+<<<<<<< HEAD
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+=======
 >>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -83,6 +107,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
 <<<<<<< HEAD
       <changelist id="7965134d-229f-40f7-9c5c-e74961d28422" name="Changes" comment="" />
       <created>1704042385333</created>
@@ -94,6 +119,8 @@
       <workItem from="1704089028688" duration="20000" />
     </task>
 =======
+=======
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
       <changelist id="591c89d8-d9d1-40c3-9fe5-816f16e0695b" name="Changes" comment="" />
       <created>1704027418254</created>
       <option name="number" value="Default" />
@@ -119,6 +146,9 @@
       <updated>1704027763608</updated>
     </task>
     <option name="localTasksCounter" value="3" />
+<<<<<<< HEAD
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+=======
 >>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
     <servers />
   </component>
@@ -137,11 +167,17 @@
     </option>
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new clone" />
     <MESSAGE value="работаем" />
     <option name="LAST_COMMIT_MESSAGE" value="работаем" />
   </component>
+<<<<<<< HEAD
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+=======
 >>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
 </project>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+<<<<<<< HEAD
+  <component name="ChangeListManager">
+    <list default="true" id="7965134d-229f-40f7-9c5c-e74961d28422" name="Changes" comment="" />
+=======
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="591c89d8-d9d1-40c3-9fe5-816f16e0695b" name="Changes" comment="работаем">
+      <change beforePath="$PROJECT_DIR$/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/style/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/main/style/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/main/style/style.scss" afterDir="false" />
+    </list>
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+<<<<<<< HEAD
+=======
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Seforq&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6669df9a-d346-46e8-9a39-83004320647e" />
+        <option name="url" value="https://github.com/Seforq/proekt.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+<<<<<<< HEAD
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2aJh2WuFw3t1UuJMcLpGXwMccl4" />
+=======
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2aJChwZMhdzxj41cx8BS5e61Qdv" />
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+<<<<<<< HEAD
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+=======
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="7965134d-229f-40f7-9c5c-e74961d28422" name="Changes" comment="" />
+      <created>1704042385333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704042385333</updated>
+      <workItem from="1704042388945" duration="251000" />
+      <workItem from="1704089009982" duration="12000" />
+      <workItem from="1704089028688" duration="20000" />
+    </task>
+=======
+      <changelist id="591c89d8-d9d1-40c3-9fe5-816f16e0695b" name="Changes" comment="" />
+      <created>1704027418254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704027418254</updated>
+      <workItem from="1704027419321" duration="367000" />
+      <workItem from="1704082843558" duration="2159000" />
+    </task>
+    <task id="LOCAL-00001" summary="new clone">
+      <option name="closed" value="true" />
+      <created>1704027580191</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704027580191</updated>
+    </task>
+    <task id="LOCAL-00002" summary="работаем">
+      <option name="closed" value="true" />
+      <created>1704027763608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704027763608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+<<<<<<< HEAD
+=======
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new clone" />
+    <MESSAGE value="работаем" />
+    <option name="LAST_COMMIT_MESSAGE" value="работаем" />
+  </component>
+>>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+</project>

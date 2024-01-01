@@ -45,39 +45,45 @@ table {
 /* end reset*/
 
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
 
-    .logo {
-        img {
-            max-width: 410px;
-            width: 100
-        }
+  .logo {
+    img {
+      max-width: 410px;
+      width: 120px;
     }
+  }
+
+  .bottom {
+    align-items: center;
+    margin: auto;
 
     .menu {
-        display: flex;
-        gap: 32px;
+      gap: 31px;
+      display: flex;
 
-        &-item {
-            display: inline-block;
-            min-width: 220px;
-            padding: 20px 5px;
-            text-align: center;
-            border: 3px solid black;
-            border-radius: 8px;
-            cursor: pointer;
+      &-item {
+        display: inline-block;
+        min-width: 220px;
+        padding: 20px 5px;
+        text-align: center;
+        border: 3px solid black;
+        border-radius: 8px;
+        cursor: pointer;
 
-            &:hover{
-                background-color: rgba(200, 200, 200, 0.5);
-            }
+        &:hover {
+          background-color: rgba(200, 200, 200, 0.5);
         }
+      }
     }
+  }
 }
+ 
 .container {
-    max-width: 750px;
+    max-width: 700px;
     margin: 0 auto;
 }
 .main {
@@ -86,10 +92,10 @@ header {
         align-items: center;
         gap: 32px;
         border-bottom: 1px solid rgba(255, 0, 0, 0.5);
-        
-        &.revert {
-            flex-direction: row-reverse;
-        }
+
+       &.revert {
+         flex-direction: row-reverse;
+      }
 
         &:last-child {
             gap: 0;

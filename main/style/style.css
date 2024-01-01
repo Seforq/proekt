@@ -58,13 +58,17 @@ header {
 }
 header .logo img {
   max-width: 410px;
-  width: 100;
+  width: 120px;
 }
-header .menu {
+header .bottom {
+  align-items: center;
+  margin: auto;
+}
+header .bottom .menu {
+  gap: 31px;
   display: flex;
-  gap: 32px;
 }
-header .menu-item {
+header .bottom .menu-item {
   display: inline-block;
   min-width: 220px;
   padding: 20px 5px;
@@ -73,12 +77,12 @@ header .menu-item {
   border-radius: 8px;
   cursor: pointer;
 }
-header .menu-item:hover {
+header .bottom .menu-item:hover {
   background-color: rgba(200, 200, 200, 0.5);
 }
 
 .container {
-  max-width: 750px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
@@ -102,4 +106,6 @@ header .menu-item:hover {
   padding: 20px;
   font-size: 20px;
   letter-spacing: 1.5;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

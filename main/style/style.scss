@@ -8,39 +8,39 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /* end reset*/
 
@@ -48,35 +48,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-<<<<<<< HEAD
   padding: 30px;
 
   .logo {
     img {
       max-width: 600px;
       width: 222px;
-=======
-  padding: 20px;
-
-  .logo {
-    img {
-      max-width: 410px;
-      width: 120px;
->>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
     }
   }
 
   .bottom {
-<<<<<<< HEAD
     font-size: 22px;
     margin: auto;
     align-items: center;
 
 
-=======
-    align-items: center;
-    margin: auto;
->>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
 
     .menu {
       gap: 31px;
@@ -84,11 +70,7 @@ header {
 
       &-item {
         display: inline-block;
-<<<<<<< HEAD
         min-width: 300px;
-=======
-        min-width: 220px;
->>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
         padding: 20px 5px;
         text-align: center;
         border: 3px solid black;
@@ -102,50 +84,37 @@ header {
     }
   }
 }
- 
+
 .container {
-<<<<<<< HEAD
-    max-width: 900px;
-    margin-left: 590px;
-    text-align: center;
-=======
-    max-width: 700px;
-    margin: 0 auto;
->>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
+  max-width: 900px;
+  margin-left: 590px;
+  text-align: center;
 }
 .main {
-    .text-block {
-      display: flex;
+  .text-block {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+
+    &.revert {
+      flex-direction: row-reverse;
+    }
+
+    &:last-child {
+      gap: 0;
+      border-bottom: none;
+    }
+
+    img {
       align-items: center;
-      gap: 32px;
-      border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+      max-width: 240px;
+    }
 
-      &.revert {
-        flex-direction: row-reverse;
-      }
-
-      &:last-child {
-        gap: 0;
-        border-bottom: none;
-      }
-
-      img {
-        align-items: center;
-<<<<<<< HEAD
-        max-width: 240px;
-=======
-        gap: 32px;
-        border-bottom: 1px solid rgba(255, 0, 0, 0.5);
-
-       &.revert {
-         flex-direction: row-reverse;
->>>>>>> 0fa05534ded5908c3093ed3a0a3e6dee3d77adfb
-      }
-
-      .text {
-        padding: 25px;
-        font-size: 20px;
-        letter-spacing: 1.5;
-      }
+    .text {
+      padding: 25px;
+      font-size: 20px;
+      letter-spacing: 1.5;
     }
   }
+}

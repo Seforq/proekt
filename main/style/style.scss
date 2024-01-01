@@ -48,18 +48,21 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
 
   .logo {
     img {
-      max-width: 410px;
-      width: 120px;
+      max-width: 600px;
+      width: 222px;
     }
   }
 
   .bottom {
-    align-items: center;
+    font-size: 22px;
     margin: auto;
+    align-items: center;
+
+
 
     .menu {
       gap: 31px;
@@ -67,7 +70,7 @@ header {
 
       &-item {
         display: inline-block;
-        min-width: 220px;
+        min-width: 300px;
         padding: 20px 5px;
         text-align: center;
         border: 3px solid black;
@@ -83,33 +86,35 @@ header {
 }
  
 .container {
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin-left: 590px;
+    text-align: center;
 }
 .main {
     .text-block {
-        display: flex;
-        align-items: center;
-        gap: 32px;
-        border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      border-bottom: 1px solid rgba(255, 0, 0, 0.5);
 
-       &.revert {
-         flex-direction: row-reverse;
+      &.revert {
+        flex-direction: row-reverse;
       }
 
-        &:last-child {
-            gap: 0;
-            border-bottom: none;
-        }
+      &:last-child {
+        gap: 0;
+        border-bottom: none;
+      }
 
-        img {
-            max-width: 350px;
-        }
+      img {
+        align-items: center;
+        max-width: 240px;
+      }
 
-        .text {
-            padding: 20px;
-            font-size: 20px;
-            letter-spacing: 1.5;
-        }
+      .text {
+        padding: 25px;
+        font-size: 20px;
+        letter-spacing: 1.5;
+      }
     }
-}
+  }

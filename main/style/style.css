@@ -54,15 +54,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
+  padding: 30px;
 }
 header .logo img {
-  max-width: 410px;
-  width: 120px;
+  max-width: 600px;
+  width: 222px;
 }
 header .bottom {
-  align-items: center;
+  font-size: 22px;
   margin: auto;
+  align-items: center;
 }
 header .bottom .menu {
   gap: 31px;
@@ -70,7 +71,7 @@ header .bottom .menu {
 }
 header .bottom .menu-item {
   display: inline-block;
-  min-width: 220px;
+  min-width: 300px;
   padding: 20px 5px;
   text-align: center;
   border: 3px solid black;
@@ -82,8 +83,9 @@ header .bottom .menu-item:hover {
 }
 
 .container {
-  max-width: 700px;
-  margin: 0 auto;
+  max-width: 900px;
+  margin-left: 590px;
+  text-align: center;
 }
 
 .main .text-block {
@@ -100,10 +102,11 @@ header .bottom .menu-item:hover {
   border-bottom: none;
 }
 .main .text-block img {
-  max-width: 350px;
+  align-items: center;
+  max-width: 240px;
 }
 .main .text-block .text {
-  padding: 20px;
+  padding: 25px;
   font-size: 20px;
   letter-spacing: 1.5;
 }

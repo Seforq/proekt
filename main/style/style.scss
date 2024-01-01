@@ -19,6 +19,7 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -29,21 +30,26 @@ body {
   font-family: "Comic Sans MS", sans-serif;
   line-height: 1;
 }
+
 ol, ul {
   list-style: none;
 }
+
 blockquote, q {
   quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 /* end reset*/
 
 header {
@@ -63,7 +69,6 @@ header {
     font-size: 22px;
     margin: auto;
     align-items: center;
-
 
 
     .menu {
@@ -89,9 +94,10 @@ header {
 
 .container {
   max-width: 900px;
-  margin-left: 590px;
+  margin-left: 580px;
   text-align: center;
 }
+
 .main {
   .text-block {
     display: flex;
@@ -120,3 +126,6 @@ header {
     }
   }
 }
+
+
+

@@ -93,25 +93,10 @@ header .logo img {
   cursor: pointer;
 }
 header .bottom {
-  font-size: 22px;
+  font-size: 30px;
   margin: auto;
   align-items: center;
-}
-header .bottom .menu {
-  gap: 31px;
-  display: flex;
-}
-header .bottom .menu-item {
-  display: inline-block;
-  min-width: 300px;
-  padding: 20px 5px;
   text-align: center;
-  border: 3px white;
-  border-radius: 8px;
-  cursor: pointer;
-}
-header .bottom .menu-item:hover {
-  background-color: rgba(200, 200, 200, 0.5);
 }
 
 .container {
@@ -121,6 +106,7 @@ header .bottom .menu-item:hover {
 }
 
 .main .text-block {
+  margin-left: 50px;
   position: relative;
   display: flex;
   align-items: center;
@@ -139,7 +125,7 @@ header .bottom .menu-item:hover {
   max-width: 240px;
 }
 .main .text-block .text {
-  padding: 25px;
+  padding: 20px;
   font-size: 20px;
   letter-spacing: 1.5px;
 }

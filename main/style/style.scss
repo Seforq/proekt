@@ -97,31 +97,13 @@ header {
   }
 
   .bottom {
-    font-size: 22px;
+    font-size: 30px;
     margin: auto;
     align-items: center;
-
-
-    .menu {
-      gap: 31px;
-      display: flex;
-
-      &-item {
-        display: inline-block;
-        min-width: 300px;
-        padding: 20px 5px;
-        text-align: center;
-        border: 3px white;
-        border-radius: 8px;
-        cursor: pointer;
-
-        &:hover {
-          background-color: rgba(200, 200, 200, 0.5);
+    text-align: center;
+          }
         }
-      }
-    }
-  }
-}
+
 
 .container {
   max-width: 900px;
@@ -131,6 +113,7 @@ header {
 
 .main {
   .text-block {
+    margin-left: 50px;
     position: relative;
     display: flex;
     align-items: center;
@@ -152,7 +135,7 @@ header {
     }
 
     .text {
-      padding: 25px;
+      padding: 20px;
       font-size: 20px;
       letter-spacing: 1.5px;
     }

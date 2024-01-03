@@ -187,35 +187,5 @@ header .bottom {
     cursor: pointer;
   }
 }
-.container {
-  max-width: 900px;
-  margin-left: 600px;
-  text-align: justify;
-}
 
-.main .text-block {
-  margin-left: 50px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 32px;
-  border-bottom: 1px solid rgba(255, 0, 0, 0.5);
-}
-.main .text-block.revert {
-  flex-direction: row-reverse;
-}
-.main .text-block:last-child {
-  gap: 0;
-  border-bottom: none;
-}
-.main .text-block img {
-  align-items: center;
-  max-width: 240px;
-}
-.main .text-block .text {
-  padding: 20px;
-  font-size: 20px;
-  letter-spacing: 1.5px;
-}
-
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=stylemy.css.map */

@@ -88,7 +88,7 @@ header {
   align-items: center;
   border-radius: 20px;
   justify-content: space-between;
-  padding: 15px;
+  padding: 0;
   height: 70px;
 }
 header .logo img {
@@ -98,13 +98,15 @@ header .logo img {
 }
 header .bottom {
   justify-content: space-between;
-  display: block;
   font-weight: 700;
   font-size: 30px;
-  margin: 11px auto;
+  margin: 10px auto;
+  padding-left: 0;
   color: #8b00ff;
   align-items: center;
   text-align: center;
+  box-sizing: border-box;
+  gap: 70px;
 }
 
 .selectlink {
@@ -118,7 +120,7 @@ header .bottom {
   border: none;
   position: relative;
   outline: none;
-  padding-right: 0;
+  padding-right: -20;
   display: inline-block;
   min-width: 270px;
   border: 2px white;
@@ -131,11 +133,14 @@ header .bottom {
 .selectlink-control {
   position: relative;
   display: inline-block;
-  padding: 20px 14px;
+  padding: 20px 15px;
   border: none;
-  border-radius: 6px;
+  border-radius: 20px;
   background: none;
   cursor: pointer;
+  box-sizing: border-box;
+  margin: auto;
+  justify-content: space-between;
 }
 
 .selectlink-control:after {
@@ -159,7 +164,7 @@ header .bottom {
   position: absolute;
   top: 100%;
   left: 0px;
-  border: 0.5px solid #dadada;
+  border: none;
   border-top: none;
   background: #326699;
   z-index: 9999;
@@ -178,7 +183,7 @@ header .bottom {
   display: block;
   margin: 0;
   padding: 4px 6px 4px 15px;
-  font-weight: normal;
+  font-weight: 550;
   font-size: 1em;
   line-height: 1.1;
   cursor: pointer;

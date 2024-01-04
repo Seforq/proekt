@@ -187,5 +187,22 @@ header .bottom {
     cursor: pointer;
   }
 }
+main .main-text {
+  border: 1.5px solid white;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 7px;
+  padding: 20px;
+  gap: 100px;
+  background: #003349;
+  width: 60%;
+  margin: 100px 490px;
+  display: block;
+}
+
+.text {
+  padding: 10px;
+  text-align: left;
+}
 
 /*# sourceMappingURL=stylemy.css.map */

@@ -102,7 +102,7 @@ header .bottom {
   font-weight: 700;
   font-size: 30px;
   margin: 11px auto;
-  color: #8b00ff;
+  color: #00008B;
   align-items: center;
   text-align: center;
 }
@@ -159,9 +159,9 @@ header .bottom {
   position: absolute;
   top: 100%;
   left: 0px;
-  border: 0.5px solid #dadada;
+  border: 0.5px solid white;
   border-top: none;
-  background: #326699;
+  background: #4169E1;
   z-index: 9999;
   overflow: auto;
   user-select: none;
@@ -178,7 +178,7 @@ header .bottom {
   display: block;
   margin: 0;
   padding: 4px 6px 4px 15px;
-  font-weight: normal;
+  font-weight: 550;
   font-size: 1em;
   line-height: 1.1;
   cursor: pointer;

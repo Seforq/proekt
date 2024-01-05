@@ -102,7 +102,7 @@ header .bottom {
   font-size: 30px;
   margin: 10px auto;
   padding-left: 0;
-  color: #8b00ff;
+  color: #00008B;
   align-items: center;
   text-align: center;
   box-sizing: border-box;
@@ -164,9 +164,9 @@ header .bottom {
   position: absolute;
   top: 100%;
   left: 0px;
-  border: none;
+  border: 0.5px solid white;
   border-top: none;
-  background: #326699;
+  background: #4169E1;
   z-index: 9999;
   overflow: auto;
   user-select: none;
@@ -202,14 +202,14 @@ header .bottom {
   }
 }
 .container {
-  max-width: 900px;
+  max-width: 1000px;
   margin-left: 20px;
+  margin: 40px;
   text-align: justify;
   padding: 20px;
   border: none;
   position: relative;
   display: block;
-  margin: 40px;
   gap: 70px;
   box-sizing: border-box;
   border-radius: 20px;
@@ -221,6 +221,48 @@ header .bottom {
   padding: 12px;
   text-align: left;
   font-size: 20px;
+}
+
+.main-text2 {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+.text2 {
+  max-width: 1000px;
+  margin-left: 20px;
+  margin: 40px;
+  text-align: justify;
+  padding: 20px;
+  border: none;
+  position: relative;
+  display: block;
+  gap: 70px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #3574e8;
+}
+
+.main-text3 {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+.text3 {
+  max-width: 1000px;
+  margin-left: 20px;
+  margin: 40px;
+  text-align: justify;
+  padding: 20px;
+  border: none;
+  position: relative;
+  display: block;
+  gap: 70px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #3574e8;
 }
 
 /*# sourceMappingURL=style.css.map */

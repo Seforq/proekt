@@ -25,10 +25,8 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-
 body {
   margin: 0;
-  color: white;
   font-family: "zx", sans-serif;
   line-height: 1;
 }
@@ -58,54 +56,47 @@ canvas {
   vertical-align: bottom;
 }
 
-/* ---- particles.js container ---- */
-#particles-js {
-  position: absolute;
-  width: 200%;
-  height: 200%;
-  background-color: #a6caf0;
-  background-image: url("");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 150% 150%;
-}
-
-/* ---- stats.js ---- */
 .background {
   position: absolute;
+  height: 150%;
+  width: 100%;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-top: 150px;
-  padding-bottom: 200px;
   overflow: hidden;
+  display: flex;
 }
+
+
+
+
 
 //кнопочки
 header {
+  position: relative;
   border: none;
-  background: #bed2f7;
+  background: rgba(1, 1, 1, 0.76);
   box-sizing: border-box;
   display: flex;
-  position: relative;
   align-items: center;
-  border-radius: 20px;
-  padding: -100px;
-  height: 70px;
+
 
   .logo {
     img {
-      max-width: 600px;
+      position: relative;
+      max-width: 333px;
       width: 222px;
       cursor: pointer;
+      margin-left: 100px;
     }
   }
 
+
   .bottom {
+    margin: auto;
     justify-content: space-between;
     font-weight: 700;
     font-size: 30px;
-    padding-left: 0;
-    color: #00008B;
+    color: white;
     align-items: center;
     text-align: center;
     box-sizing: border-box;
@@ -132,7 +123,7 @@ header {
   border-radius: 7px;
 
   &:hover {
-    background-color: rgba(138, 103, 126, 0.35);
+    background-color: rgba(0, 0, 0, 100);
   }
 }
 
@@ -210,12 +201,14 @@ header {
 }
 
 
-.container {
-  max-width: 1000px;
-  margin-left: 20px;
-  margin: 40px;
+.container1 {
+  max-width: 500px;
+  max-height: 300px;
+  margin-left: 85px;
+  margin-top: 60px;
   text-align: justify;
-  padding: 20px ;
+  padding: 5px 5px;
+  flex-direction: column;
   border: none;
   position: relative;
   display: block;
@@ -223,6 +216,7 @@ header {
   box-sizing: border-box;
   border-radius: 20px;
   background: #3574e8;
+  align-items: center;
 }
 
 .main {
@@ -256,31 +250,37 @@ header {
 }
 
 
-
-
 .main-text3 {
   color: white;
   text-align: left;
   font-size: 20px;
 
 }
-  .text3 {
-    max-width: 1000px;
-    margin-left: 20px;
-    margin: 40px;
-    text-align: justify;
-    padding: 20px;
-    border: none;
-    position: relative;
-    display: block;
-    gap: 70px;
-    box-sizing: border-box;
-    border-radius: 20px;
-    background: #3574e8;
-  }
 
+.text3 {
+  max-width: 800px;
+  margin-left: 20px;
+  margin: 40px;
+  text-align: justify;
+  padding: 20px;
+  border: none;
+  position: relative;
+  display: block;
+  gap: 70px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #3574e8;
+}
 
-
+.bg {
+  background: black;
+  margin-top: 1000px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
 
 
 

@@ -10,7 +10,7 @@
 }
   .bg {
     background: black;
-    margin-top: 890px;
+    margin-top: 895.5px;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -23,17 +23,71 @@
     min-width: 150px;
   }
 
-  .logo {
-    width: 300px;
+  header .logo img {
+    width: 220px;
+    margin-left: 10px;
   }
   main.container1 {
     max-height: 210px;
     border-radius: 5px;
     margin-right: 90px;
+    margin-left: 90px;
   }
 
   .main .text {
     padding: 0;
     font-size: 17px;
   }
+}
+
+@media only screen and (max-width: 767px) {
+  .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .bg {
+    background: black;
+    margin-top: 910px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+  }
+
+  header .selectlink {
+    font-size: 14.5px;
+    min-width: 50px;
+  }
+
+  header .logo img {
+    width: 160px;
+    margin-left: 0;
+  }
+  main.container1 {
+    max-width: 300px;
+    max-height: 180px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .main .text {
+    font-size: 14px;
+    text-align: left;
+  }
+
+
+
+
+
+
+
+
 }

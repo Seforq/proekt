@@ -59,20 +59,19 @@ canvas {
 
 .background {
   position: absolute;
-  height: 150%;
-  width: 100%;
-  background-position: top center;
-  background-repeat: no-repeat;
   overflow: hidden;
   display: flex;
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
 }
 
 header {
+  display: flex;
   position: relative;
   border: none;
   background: rgba(1, 1, 1, 0.76);
   box-sizing: border-box;
-  display: flex;
   align-items: center;
 }
 header .logo img {
@@ -190,7 +189,7 @@ header .bottom {
   max-width: 500px;
   max-height: 300px;
   margin-left: 85px;
-  margin-right: 50px;
+  margin-right: 0;
   margin-top: 60px;
   text-align: justify;
   padding: 5px 5px;
@@ -255,11 +254,12 @@ header .bottom {
 }
 
 .bg {
-  background: black;
+  background: #696969;
   margin-top: 1000px;
   position: absolute;
-  height: 100%;
-  width: 100%;
+  background-size: 100%;
+  height: 1080px;
+  width: 1920px;
   overflow: hidden;
   display: flex;
 }

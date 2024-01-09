@@ -138,11 +138,12 @@
 @media only screen and (max-width: 432px) {
 
   .background {
+    width: 100%;
+    height: 100%;
     padding: 0;
     margin: 0;
     position: absolute;
-    height: auto;
-    width: auto;
+    overflow-x: hidden;
     background-position: top center;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -151,7 +152,7 @@
 
   .bg {
     background: black;
-    margin-top: 70px;
+    margin-top: 38px;
     position: absolute;
     height: 100%;
     width: 100%;

@@ -118,7 +118,6 @@
     padding: 0;
     margin: 0;
     position: absolute;
-    overflow-x: hidden;
     background-position: top center;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -126,7 +125,7 @@
   }
   .bg {
     background: black;
-    margin-top: 38px;
+    margin-top: -624px;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -168,7 +167,7 @@
     width: 68%;
   }
   footer .social-icons {
-    margin-top: 250px;
+    margin-top: 650px;
     position: relative;
     display: flex;
     justify-content: center;

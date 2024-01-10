@@ -352,4 +352,9 @@ footer .social-icons a:hover img {
   display: flex;
 }
 
+.wrapper {
+  visibility: hidden;
+  position: absolute;
+}
+
 /*# sourceMappingURL=style.css.map */

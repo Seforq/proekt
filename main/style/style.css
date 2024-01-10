@@ -257,7 +257,7 @@ header .bottom {
 }
 
 footer .social-icons {
-  margin-top: 550px;
+  margin-top: 1340px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -344,7 +344,7 @@ footer .social-icons a:hover img {
 
 .bg {
   background: #696969;
-  margin-top: 50px;
+  margin-top: -840px;
   position: absolute;
   height: 100%;
   width: 100%;

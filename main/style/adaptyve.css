@@ -125,7 +125,7 @@
   }
   .bg {
     background: black;
-    margin-top: -627px;
+    margin-top: -840px;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -141,10 +141,11 @@
     margin-left: 0;
   }
   main.container1 {
-    max-height: 210px;
+    max-height: 130px;
+    max-width: 130px;
     border-radius: 5px;
-    margin-right: 90px;
-    margin-left: 90px;
+    display: inline;
+    float: left;
   }
   .main .text {
     padding: 0;
@@ -167,7 +168,7 @@
     width: 68%;
   }
   footer .social-icons {
-    margin-top: 650px;
+    margin-top: 1110px;
     position: relative;
     display: flex;
     justify-content: center;

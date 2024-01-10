@@ -125,7 +125,7 @@
   }
   .bg {
     background: black;
-    margin-top: -800px;
+    margin-top: -550px;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -169,7 +169,7 @@
     width: 81.4%;
   }
   footer .social-icons {
-    margin-top: 1200px;
+    margin-top: 600px;
     position: relative;
     display: flex;
     justify-content: center;

@@ -243,6 +243,10 @@ header {
     font-size: 27px;
   }
 
+  .dropdown:hover {
+color: #e8e859;
+  }
+
   .dropdown-content1 {
     border-radius: 10px;
     display: none;
@@ -250,7 +254,7 @@ header {
     height: auto;
     width: auto;
     position: absolute;
-background-color: #ffdf80;
+background-color: moccasin;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
     z-index: 1;
   }
@@ -265,7 +269,7 @@ background-color: #ffdf80;
   .dropdown-content1 a:hover {
     background-color: white;
     border-radius: 10px;
-    transform: scale(1.2);
+    transform: scale(1.0523);
   }
 
   .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
@@ -315,6 +319,47 @@ footer {
   background: #3574e8;
   align-items: center;
 }
+
+.container2 {
+  max-width: 500px;
+  max-height: 300px;
+  margin-left: 85px;
+  margin-right: 0;
+  margin-top: 60px;
+  text-align: justify;
+  padding: 5px 5px;
+  flex-direction: column;
+  border: none;
+  position: relative;
+  display: block;
+  gap: 70px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #3574e8;
+  align-items: center;
+}
+
+.container3 {
+  max-width: 500px;
+  max-height: 300px;
+  margin-left: 85px;
+  margin-right: 0;
+  margin-top: 60px;
+  text-align: justify;
+  padding: 5px 5px;
+  flex-direction: column;
+  border: none;
+  position: relative;
+  display: block;
+  gap: 70px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #3574e8;
+  align-items: center;
+}
+
+
+
 
 .main {
   .text {

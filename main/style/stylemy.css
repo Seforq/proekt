@@ -215,4 +215,13 @@ main .main-text {
   font-size: 20px;
 }
 
+.down {
+  color: black;
+  position: relative;
+}
+
+.down a {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=stylemy.css.map */

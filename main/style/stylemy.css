@@ -231,4 +231,19 @@ hr {
   border: none;
 }
 
+.photo {
+  position: relative;
+  margin-left: 55vw;
+  cursor: pointer;
+}
+
+.photo img {
+  width: 150px;
+}
+
+.photo1 {
+  position: relative;
+  margin-left: 54.95vw;
+}
+
 /*# sourceMappingURL=stylemy.css.map */

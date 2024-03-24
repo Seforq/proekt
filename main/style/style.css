@@ -399,4 +399,31 @@ footer .social-icons a:hover img {
   position: absolute;
 }
 
+.down_page {
+  background: #c3c3c3;
+  position: relative;
+}
+
+.down {
+  color: black;
+  position: relative;
+  font-size: 12px;
+  margin-left: 10vw;
+  margin-top: -8px;
+  padding: 15px;
+}
+
+.down a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+hr {
+  position: relative;
+  background-color: #969696;
+  height: 2px;
+  border: none;
+  margin-top: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */

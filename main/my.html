@@ -7,9 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Контакты для СМИ</title>
     <link rel="stylesheet" href="style/stylemy.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=8da7b2eb-04d3-42d6-bdbf-8d6068461e21 ;scroll=false"></script>
+
 </head>
 
 <body>
+
 <div id="particles-js"></div>
 <div class="count-particles"><span class="js-count-particles">--</span> particles</div>
 <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib -->
@@ -113,20 +116,30 @@
     </div>
 
 
-    <div style="position:relative;overflow:hidden;"><a
-            href="https://yandex.ru/maps/org/sibirskiy_gosudarstvenny_industrialny_universitet/1036607504/?utm_medium=mapframe&utm_source=maps"
-            style="color:#eee;font-size:12px;position:absolute;top:0px; pointer-events: auto;">Сибирский государственный индустриальный
-        университет</a><a
-            href="https://yandex.ru/maps/237/novokuznetsk/category/university/184106140/?utm_medium=mapframe&utm_source=maps"
-            style="color:#eee;font-size:12px;position:absolute;top:14px pointer-events: auto;"></a>
-        <iframe src="https://yandex.ru/map-widget/v1/?ll=87.134901%2C53.751944&mode=poi&poi%5Bpoint%5D=87.128640%2C53.757148&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D1036607504&utm_medium=mapframe&utm_source=maps&z=15.04"
-                width="1920" height="250" frameborder="1" allowfullscreen="true" style="position:relative; pointer-events: auto; zoom: 1"></iframe>
+    <div id="map" style="width: 1855px; height: 500px;"></div>
+
+
+    <div class="text_map">
+        <div class="text_map1">
+        <h1>Университетский колледж СибГИУ</h1>
+        </div>
+        <div class="text_map2">
+        <h1>Адрес Колледжа:</h1> <p>654007, Кемеровская область - Кузбасс, г. <br>Новокузнецк, Центральный р-н, ул. Кирова, зд. 42</p>
+        </div>
+        <div class="text_map3">
+        <h1>Остановка:</h1> <p>СибГИУ</p>
+        </div>
+        <div class="text_map4">
+            <h1>Номер телефона:</h1> <p>+7 (3843) 77-79-79</p>
+        </div>
     </div>
+
 
 
 </main>
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/map.js"></script>
 <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
 </body>

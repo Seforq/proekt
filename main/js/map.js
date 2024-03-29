@@ -4,10 +4,9 @@ function init () {
     const coordinate = ["53.75716416082592,87.1286394448303"];
     const pointCoords = [];
     let myMap = new ymaps.Map("map", {
-        center: [53.759886865596606,87.12882044658274],
-        zoom: 16
+        center: [53.759886865596606, 87.12882044658274],
+        zoom: 15
     });
-
 
 
     const collection = new ymaps.GeoObjectCollection(null, {
@@ -29,6 +28,8 @@ function init () {
     }
 
     myMap.geoObjects.add(collection)
+
+
 
 
 }

@@ -4,7 +4,7 @@ function init () {
     const coordinate = ["53.75716416082592,87.1286394448303"];
     const pointCoords = [];
     let myMap = new ymaps.Map("map", {
-        center: [53.759886865596606, 87.12882044658274],
+        center: [53.760536871414196,87.12873505411166],
         zoom: 15
     });
 

@@ -250,7 +250,7 @@ header {
 }
 
 .dropdown-content1 {
-  border-radius: 10px;
+  border-radius: 7px;
   display: none;
   font-size: 20px;
   height: auto;
@@ -263,16 +263,29 @@ header {
 
 .dropdown-content1 a {
   color: black;
-  padding: 9px 3px;
+  padding: 12px 5px;
   text-decoration: none;
   display: block;
 }
 
 .dropdown-content1 a:hover {
+  border: 2px solid black;
   background-color: white;
   border-radius: 10px;
-  transform: scale(1.0523);
+  transform: scale(1.05623);
 }
+
+.photo {
+  position: absolute;
+  margin-top: 35vw;
+}
+
+.qr {
+  position: absolute;
+  margin-top: 78vw;
+  margin-left: 82vw;
+}
+
 
 .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
   display: block;
@@ -282,7 +295,7 @@ header {
 
 footer {
   .social-icons {
-    margin-top: 1340px;
+    margin-top: 850px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -416,7 +429,7 @@ footer {
 
 .bg {
   background: #696969;
-  margin-top: -840px;
+  margin-top: -900px;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -433,6 +446,7 @@ footer {
 .down_page {
   background: #c3c3c3;
   position: relative;
+  margin-top: 2vw;
 }
 
 .down {
@@ -451,9 +465,95 @@ footer {
 }
 
 hr {
-  position: relative;
+  position: absolute;
   background-color: #969696;
   height: 2px;
   border: none;
-  margin-top: 30px;
+  margin-top: -90vw;
+}
+
+.text_map {
+  font-family: 'BrassMono-Bold', sans-serif;
+  float: right;
+  position: relative;
+  width: 900px;
+  height: 250px;
+  background: white;
+  border-radius: 25px;
+  margin-top: -500px;
+  margin-right: 25vw;
+  box-shadow: 4px 4px 4px 2px rgba(128, 128, 128, 0.5);
+}
+
+.text_map1 {
+  margin-left: 13vw;
+  position: relative;
+  color: #494040;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: 600;
+
+}
+
+.text_map1 h1 {
+  margin-top: 0;
+  padding: 5px;
+
+
+}
+
+.text_map2 h1 {
+  font-weight: 600;
+  margin-left: 2vw;
+  margin-top: 1vw;
+  position: relative;
+  color: #494040;
+  font-size: 20px;
+}
+
+.text_map2 p {
+  margin-left: 2vw;
+  margin-top: 0.5vw;
+  position: relative;
+  color: #a49696;
+  font-size: 20px;
+}
+
+.text_map3 h1 {
+  font-weight: 600;
+  margin-left: 2vw;
+  margin-top: 2vw;
+  position: relative;
+  color: #494040;
+  font-size: 20px;
+}
+
+.text_map3 p {
+  margin-left: 2vw;
+  margin-top: 0.5vw;
+  position: relative;
+  color: #a49696;
+  font-size: 20px;
+}
+
+.text_map4 h1 {
+  font-weight: 600;
+  margin-left: 34vw;
+  margin-top: -8.4vw;
+  position: relative;
+  color: #494040;
+  font-size: 20px;
+}
+
+.text_map4 p {
+  margin-left: 34vw;
+  margin-top: 0.5vw;
+  position: relative;
+  color: #a49696;
+  font-size: 20px;
+}
+
+#map {
+  margin-top: 94.5vw;
+  position: relative;
 }

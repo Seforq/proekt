@@ -9,6 +9,7 @@
     <title>СибГИУ</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/adaptyve.css">
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=8da7b2eb-04d3-42d6-bdbf-8d6068461e21 ;scroll=false"></script>
 </head>
 <body>
 <div class="background">
@@ -54,7 +55,7 @@
 <header>
     <!--лого левое угол-->
     <div class="logo">
-        <img src="images/sibsiu_logo3.png" alt="logo"/>
+        <a href=""><img src="images/sibsiu_logo3.png" alt="logo"/></a>
     </div>
     <!--Кнопки верхние-->
     <div class="bottom">
@@ -62,19 +63,19 @@
             <div class="selectlink-control">&nbspРасписание&nbsp</div>
             <ul>
                 <li>
-                    <a href="https://sibsiu.ru/files/raspisanie/uc/Расписание%20занятий/1%20курс%20Весенний%20семестр%202023-2024.pdf">
+                    <a href="../main/images/1 Курс Весенний семестр 2023-2024 (1).pdf">
                         1 курс</a></li>
                 <li>
-                    <a href="https://sibsiu.ru/files/raspisanie/uc/Расписание%20занятий/2%20Курс%20Весенний%20семеср%202023-2024.pdf">
+                    <a href="../main/images/2 Курс Весенний семестр 2023-2024 (1).pdf">
                         2 курс</a></li>
                 <li>
-                    <a href="https://sibsiu.ru/files/raspisanie/uc/Расписание%20занятий/3%20Курс%20Весенний%20семеср%202023-2024.pdf">
+                    <a href="../main/images/3 Курс Весенний семестр 2023-2024 (1).pdf">
                         3 курс</a></li>
                 <li>
-                    <a href="https://sibsiu.ru/files/raspisanie/uc/Расписание%20занятий/4%20Курс%20Весенний%20семеср%202023-2024.pdf">
+                    <a href="../main/images/4 Курс Весенний семестр 2023-2024.pdf">
                         4 курс</a></li>
                 <li>
-                    <a href="https://sibsiu.ru/files/raspisanie/uc/Расписание%20занятий/5%20Курс%20Весенний%20семеср%202023-2024.pdf">
+                    <a href="../main/images/5 Курс Весенний семестр 2023-2024.pdf">
                         5 курс</a></li>
             </ul>
         </div>
@@ -113,18 +114,52 @@
     <div class="dropdown">
         <h3>Поступающим после 9 класса</h3>
         <div class="dropdown-content1">
-            <a href="https://www.sibsiu.ru/files/instituty/uk/doc/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2%20%D0%B4%D0%BB%D1%8F%20%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%B0%20%D0%B8%20%D0%B7%D0%B0%D1%87%D0%B8%D1%81%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F.pdf"
+            <a href="../main/images/Список%20документов%20для%20приема%20и%20зачисления.pdf"
                id="" class="specialLink">Список документов для зачисления</a>
-        </div>
-    </div>
-    <div class="dropdown">
-        <h3>Поступающим после 11 класса</h3>
-        <div class="dropdown-content1">
-            <a href="#" id="" class="specialLink">down1</a>
-            <a href="#" id="" class="specialLink">down1</a>
+            <a href="../main/images/Медицинская%20справка%20086У.pdf"
+               id="" class="specialLink">Справка 086/У</a>
+            <a href="../main/images/Pamyatka_pervokursniku.pdf"
+               id="" class="specialLink">Памятка первокурсника</a>
+            <a href="../main/images/Список%20документов%20для%20заселения%20в%20общежитие.pdf"
+               id="" class="specialLink">Документы на общежитие</a>
+            <a href="../main/images/Пакет%20документов%20для%20военкомата.pdf"
+               id="" class="specialLink">Документы на военкомат</a>
+            <a href="https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.sibsiu.ru%2Ffiles%2Finstituty%2Fuk%2F%25D1%2581%25D1%2580%25D0%25B5%25D0%25B4%25D0%25BD%25D0%25B8%25D0%25B5%2520%25D0%25B1%25D0%25B0%25D0%25BB%25D0%25BB%25D1%258B%2520%25D0%25B0%25D1%2582%25D1%2582%25D0%25B5%25D1%2581%25D1%2582%25D0%25B0%25D1%2582%25D0%25BE%25D0%25B2%252021-23.docx&wdOrigin=BROWSELINK"
+               id="" class="specialLink">Проходной балл 2021-2023</a>
         </div>
     </div>
 </main>
+<div class="photo">
+    <img src="images/content-img.png" width="1860px">
+</div>
+<div class="qr">
+    <img src="images/qr-code.gif">
+</div>
+
+
+    <div id="map" style="width: 1855px; height: 600px;"></div>
+
+<div class="mapped">
+    <div class="text_map">
+        <div class="text_map1">
+            <h1>Университетский колледж СибГИУ</h1>
+        </div>
+        <div class="text_map2">
+            <h1>Адрес Колледжа:</h1>
+            <p>654007, Кемеровская область - Кузбасс, г. <br>Новокузнецк, Центральный р-н, ул. Кирова, зд. 42</p>
+        </div>
+        <div class="text_map3">
+            <h1>Остановка:</h1>
+            <p>СибГИУ</p>
+        </div>
+        <div class="text_map4">
+            <h1>Номер телефона:</h1>
+            <p>+7 (3843) 77-79-79</p>
+        </div>
+    </div>
+</div>
+
+
 <section class="page2">
     <div class="bg">
         <main class="container1">
@@ -170,25 +205,26 @@
                 <img src="images/yandex.svg" alt="Yandex Dzen">
             </a>
         </div>
-   </footer>
-<hr>
+    </footer>
+    <hr>
     <section class="down_page">
-<div class="down">
-    <p>© 2014 - 2024 гг. Новокузнецк
-        ФГБОУ ВО «Сибирский </p>
-    <p> государственный индустриальный университет»
-        Российская Федерация, Кемеровская область -</p>
-    <p>Кузбасс, Новокузнецкий городской округ,
-        г. Новокузнецк, Центральный район, ул. Кирова, здание 42.</p>
-    <p>Приемна ректора: аудитория 336Г</p>
-    <a href="#">Обратная связь с администрацией сайта</a>
-</div>
+        <div class="down">
+            <p>© 2014 - 2024 гг. Новокузнецк
+                ФГБОУ ВО «Сибирский </p>
+            <p> государственный индустриальный университет»
+                Российская Федерация, Кемеровская область -</p>
+            <p>Кузбасс, Новокузнецкий городской округ,
+                г. Новокузнецк, Центральный район, ул. Кирова, здание 42.</p>
+            <p>Приемна ректора: аудитория 336Г</p>
+            <a href="#">Обратная связь с администрацией сайта</a>
+        </div>
     </section>
 
-<script src="js/jquery-3.7.1.min.js"></script>
-<script src="js/live.js"></script>
-<script src="js/touch.js"></script>
-<script src="js/click_burger.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/live.js"></script>
+    <script src="js/touch.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/click_burger.js"></script>
 </body>
 
 </html>

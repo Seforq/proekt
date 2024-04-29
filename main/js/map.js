@@ -20,9 +20,9 @@ function init () {
                 iconContent: '',
                 hintContent: "СибГИУ",
                 balloonContent: "<em>Университетский колледж СибГИУ</em>",
-                balloonContentHeader: "Сибирский государственный индустриальный университет",
-                balloonContentBody: "Адрес" + "ул. Кирова, 42, Новокузнецк",
-                balloonContentFooter: "Подвал",
+                balloonContentHeader: "Университетский колледж СибГИУ",
+                balloonContentBody: "Адрес " + " ул. Кирова, 42, Новокузнецк",
+                balloonContentFooter: "Здание",
             }
         ));
     }

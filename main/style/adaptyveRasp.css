@@ -8,13 +8,10 @@
     overflow: hidden;
     display: flex;
   }
-
-
   header .selectlink {
     font-size: 17px;
     min-width: 150px;
   }
-
   header .logo img {
     width: 220px;
     margin-left: 10px;
@@ -25,33 +22,26 @@
     margin-right: 90px;
     margin-left: 90px;
   }
-
   .main .text {
     padding: 0;
     font-size: 17px;
   }
-
-  footer {
-    .social-icons {
-      margin-top: 360px;
-      position: relative;
-      display: flex;
-      justify-content: center;
-    }
-
-    .social-icons a {
-      margin: 0 20px;
-    }
-
-    .social-icons img {
-      width: 37px;
-      height: 32px;
-      transition: transform 0.3s;
-    }
-
-    .social-icons a:hover img {
-      transform: scale(1.7);
-    }
+  footer .social-icons {
+    margin-top: 360px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  footer .social-icons a {
+    margin: 0 20px;
+  }
+  footer .social-icons img {
+    width: 37px;
+    height: 32px;
+    transition: transform 0.3s;
+  }
+  footer .social-icons a:hover img {
+    transform: scale(1.7);
   }
   .bg {
     background: black;
@@ -62,13 +52,11 @@
     overflow: hidden;
     display: flex;
   }
-
   .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
     display: block;
     width: 36.5%;
   }
 }
-
 @media only screen and (max-width: 767px) {
   .background {
     position: absolute;
@@ -79,7 +67,6 @@
     overflow: hidden;
     display: flex;
   }
-
   .bg {
     background: black;
     margin-top: 680px;
@@ -89,12 +76,10 @@
     overflow: hidden;
     display: flex;
   }
-
   header .selectlink {
     font-size: 14.5px;
     min-width: 50px;
   }
-
   header .logo img {
     width: 160px;
     margin-left: 0;
@@ -106,20 +91,14 @@
     margin-right: 10px;
     margin-left: 10px;
   }
-
   .main .text {
     font-size: 14px;
     text-align: left;
   }
-
-  .mains {
-    h1 {
-      display: flex;
-      position: relative;
-
-    }
+  .mains h1 {
+    display: flex;
+    position: relative;
   }
-
   .upp {
     font-size: 35px;
     margin-left: 10px;
@@ -131,12 +110,8 @@
     position: absolute;
     color: white;
   }
-
-
 }
-
 @media only screen and (max-width: 480px) {
-
   .background {
     width: 100%;
     height: 100%;
@@ -148,7 +123,6 @@
     overflow: hidden;
     display: flex;
   }
-
   .bg {
     background: black;
     margin-top: -740px;
@@ -158,18 +132,14 @@
     overflow: hidden;
     display: flex;
   }
-
-
   header .logo img {
     visibility: hidden;
     width: 130px;
     margin-left: 0;
   }
-
   .selectlink-control, .selectlink {
     visibility: hidden;
   }
-
   main.container1 {
     text-align: unset;
     box-sizing: unset;
@@ -186,7 +156,6 @@
     display: flex;
     position: absolute;
   }
-
   main.container2 {
     padding: 12px;
     margin-top: 10px;
@@ -201,7 +170,6 @@
     display: flex;
     position: absolute;
   }
-
   main.container3 {
     padding: 12px;
     margin-top: 124vw;
@@ -216,13 +184,9 @@
     display: flex;
     position: absolute;
   }
-
   .text {
-
     font-size: 15px;
   }
-
-
   .mains h1 {
     margin-top: -100px;
     font-size: 60px;
@@ -234,39 +198,30 @@
   .dropdown h3 {
     font-size: 19px;
     margin-left: -10px;
-
   }
-
   .dropdown-content1 {
     font-size: 14px;
     margin-left: -20px;
-
   }
   .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
     width: 81.4%;
   }
-
-  footer {
-    .social-icons {
-      margin-top: 210vw;
-      position: relative;
-      display: flex;
-      justify-content: center;
-    }
-
-    .social-icons a {
-      margin: 0 20px;
-    }
-
-    .social-icons img {
-      width: 25px;
-      height: 28px;
-      transition: transform 0.3s;
-    }
-
-    .social-icons a:hover img {
-      transform: scale(1.7);
-    }
+  footer .social-icons {
+    margin-top: 210vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  footer .social-icons a {
+    margin: 0 20px;
+  }
+  footer .social-icons img {
+    width: 25px;
+    height: 28px;
+    transition: transform 0.3s;
+  }
+  footer .social-icons a:hover img {
+    transform: scale(1.7);
   }
   .wrapper {
     visibility: initial;
@@ -286,17 +241,15 @@
     width: 100%;
     height: 35%;
     line-height: 30px;
-    background-color: rgb(1, 1, 1, 100);
+    background-color: rgb(1, 1, 1);
     transition: all 0.6s ease 0s;
   }
-
   .header_menu.active {
     top: 0;
   }
-
   .heads:before {
     z-index: 2;
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -304,10 +257,10 @@
     height: 100%;
     background-color: #00008B;
   }
-.header_logo {
-  margin-left: 10px;
-  z-index: 2;
-}
+  .header_logo {
+    margin-left: 10px;
+    z-index: 2;
+  }
   .header_body {
     position: relative;
     justify-content: space-between;
@@ -330,7 +283,6 @@
   .header_link:hover {
     color: red;
   }
-
   .header_burger {
     display: block;
     position: absolute;
@@ -349,14 +301,13 @@
   }
   .header_burger:before,
   .header_burger:after {
-    content: '';
+    content: "";
     background-color: white;
     position: absolute;
     width: 100%;
     height: 2px;
     transition: all 0.5s ease 0s;
   }
-
   .header_burger:before {
     top: 0;
   }
@@ -373,10 +324,7 @@
   .header_burger.active:after {
     transform: rotate(-45deg);
     bottom: 9px;
-
   }
-
-
 }
 
-
+/*# sourceMappingURL=adaptyveRasp.css.map */

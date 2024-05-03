@@ -1,6 +1,6 @@
 $(function() {
     $(".selectlink-control").click(function(){
-        var $menu_popup = $(this).next();
+        let $menu_popup = $(this).next();
         $menu_popup.slideToggle(300, function(){
             $('.selectlink ul').not($menu_popup).slideUp(200);
             if ($menu_popup.is(':hidden')) {

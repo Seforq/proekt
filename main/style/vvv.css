@@ -1,0 +1,437 @@
+/* reset css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+@font-face {
+  font-family: "Evolventa";
+  src: url("../font/Evolventa-Bold.ttf");
+}
+body {
+  font-family: "Evolventa", sans-serif;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow-x: hidden;
+  margin: 0;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* end reset*/
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+.background {
+  position: absolute;
+  overflow: hidden;
+  display: flex;
+  width: auto;
+  height: auto;
+  background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  position: relative;
+  border: none;
+  background: rgba(1, 1, 1, 0.1);
+  box-sizing: border-box;
+  align-items: center;
+}
+header .logo img {
+  position: relative;
+  max-width: 333px;
+  width: 222px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+header .bottom {
+  margin: auto;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 30px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  gap: 10px;
+}
+
+.selectlink {
+  white-space: nowrap;
+  margin: 0;
+  font-family: "courier", sans-serif;
+  cursor: pointer;
+  font-size: 26px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  position: relative;
+  outline: none;
+  padding-right: -20;
+  display: inline-block;
+  min-width: 270px;
+  border: 2px white;
+  border-radius: 7px;
+}
+.selectlink:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.selectlink-control {
+  position: relative;
+  display: inline-block;
+  padding: 20px 15px;
+  border: none;
+  border-radius: 20px;
+  background: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.selectlink-control:after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.selectlink ul {
+  display: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  border: 1px solid black;
+  border-top: none;
+  background: #444b52;
+  z-index: 9999;
+  overflow: auto;
+  user-select: none;
+}
+
+.selectlink li {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.selectlink li a {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 4px 6px 4px 15px;
+  font-weight: 550;
+  font-size: 1em;
+  line-height: 1.1;
+  cursor: pointer;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.selectlink li a:hover {
+  background: black;
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 480px) {
+  .body_pointer {
+    cursor: pointer;
+  }
+}
+.mains h1 {
+  position: relative;
+  text-align: left;
+  background: white;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  margin-left: 20px;
+  margin-top: 80px;
+  font-weight: 700;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.dropdown {
+  margin-top: 35px;
+  margin-left: 100px;
+  color: white;
+}
+
+.dropdown h3 {
+  display: inline-block;
+  position: relative;
+  outline-style: ridge;
+  outline-width: 7px;
+  outline-color: black;
+  background: #808065;
+  cursor: pointer;
+  padding: 6px;
+  text-align: center;
+  font-size: 27px;
+}
+
+.dropdown:hover {
+  color: #e8e859;
+}
+
+.dropdown-content1 {
+  border-radius: 7px;
+  display: none;
+  font-size: 20px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  background-color: moccasin;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 10px;
+  transform: scale(1.05623);
+}
+
+.photo {
+  position: absolute;
+  margin-top: 35vw;
+}
+
+.qr {
+  position: absolute;
+  margin-top: 77.4vw;
+  margin-left: 83vw;
+}
+
+.dropdown:hover .dropdown-content1, .dropdown-content1.touched {
+  display: block;
+  width: 23.2%;
+}
+
+footer .social-icons {
+  margin-top: 850px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+footer .social-icons a {
+  margin: 0 20px;
+}
+footer .social-icons img {
+  width: 37px;
+  height: 32px;
+  transition: transform 0.3s;
+}
+footer .social-icons a:hover img {
+  transform: scale(1.7);
+}
+
+.container1 {
+  max-width: 500px;
+  max-height: 300px;
+  margin-left: 85px;
+  margin-right: 0;
+  margin-top: 60px;
+  text-align: justify;
+  padding: 5px 5px;
+  flex-direction: column;
+  border: none;
+  position: relative;
+  display: block;
+  gap: 70px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #3574e8;
+  align-items: center;
+}
+
+.container2 {
+  max-width: 500px;
+  max-height: 300px;
+  margin-left: 85px;
+  margin-right: 0;
+  margin-top: 60px;
+  text-align: justify;
+  padding: 5px 5px;
+  flex-direction: column;
+  border: none;
+  position: relative;
+  display: block;
+  gap: 70px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #3574e8;
+  align-items: center;
+}
+
+.container3 {
+  max-width: 500px;
+  max-height: 300px;
+  margin-left: 85px;
+  margin-right: 0;
+  margin-top: 60px;
+  text-align: justify;
+  padding: 5px 5px;
+  flex-direction: column;
+  border: none;
+  position: relative;
+  display: block;
+  gap: 70px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #3574e8;
+  align-items: center;
+}
+
+.main .text {
+  color: white;
+  padding: 12px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.main-text2 {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+.text2 {
+  max-width: 1000px;
+  margin-left: 20px;
+  margin: 40px;
+  text-align: justify;
+  padding: 20px;
+  border: none;
+  position: relative;
+  display: block;
+  gap: 70px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #3574e8;
+}
+
+.main-text3 {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+}
+
+.text3 {
+  max-width: 800px;
+  margin-left: 20px;
+  margin: 40px;
+  text-align: justify;
+  padding: 20px;
+  border: none;
+  position: relative;
+  display: block;
+  gap: 70px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background: #3574e8;
+}
+
+.bg {
+  background: #696969;
+  margin-top: -900px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.down_page {
+  background: #c3c3c3;
+  position: relative;
+  margin-top: 2vw;
+}
+
+.down {
+  color: black;
+  position: relative;
+  font-size: 12px;
+  margin-left: 10vw;
+  margin-top: 4vw;
+  padding: 15px;
+}
+
+.down a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.rasp {
+  position: absolute;
+}
+
+.kyrs {
+  position: absolute;
+}
+
+/*# sourceMappingURL=vvv.css.map */

@@ -225,6 +225,7 @@
   }
   .wrapper {
     visibility: initial;
+    position: absolute;
   }
   .heads {
     position: fixed;

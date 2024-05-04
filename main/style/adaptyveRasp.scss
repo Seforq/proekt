@@ -135,7 +135,7 @@
 
 }
 
-@media (max-width: 480px){
+@media only screen and (max-width: 480px) {
 
   .background {
     width: 100%;
@@ -270,6 +270,7 @@
   }
   .wrapper {
     visibility: initial;
+    position: absolute;
   }
   .heads {
     position: fixed;
@@ -376,75 +377,82 @@
 
   }
 
-  .rasp {
-    position: relative;
-    text-align: center;
+  .down_page {
+    background: #c3c3c3;
+    position: absolute;
+    margin-top: 150vw;
   }
 
-  .rasp h1 {
-    position: relative;
-    color: honeydew;
-    display: inline-block;
-    background-color: #443737;
-    font-size: 40px;
-    padding: 20px 28.2px;
-    margin-top: 110px;
-    font-weight: 700;
-
-  }
-
-  main {
-    margin-right: 23px;
-    margin-top: 20vw;
-    text-align: center;
-    margin-left: 30px;
-  }
-
-  main a {
-    display: block;
-    padding: 10px 50px;
-    text-decoration: none;
+  .down {
     color: black;
-    font-size: 20px;
+    position: relative;
+    font-size: 10px;
+    margin-left: 10vw;
+
+
+  }
+
+  .down a {
+    text-decoration: none;
+    color: blueviolet;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+  }
+
+  .down a:hover{
+    color: rgb(250, 11, 11, 100);
+  }
+
+
+.rasp {
+  font-weight: 700;
+}
+
+  .rasp h1{
+    background-color: white;
+    padding: 30px 70px;
+    margin-top: 65px;
+    margin-left: 17.5vw;
+    border-radius: 10px;
+
+
+  }
+
+  .kyrs {
+    margin-top: 40vw;
+    text-align: center;
+   margin-left: 26vw;
+
+  }
+
+  .kyrs a {
+    text-decoration: none;
+    display: block;
+    padding: 25px 65px;
+    color: white;
   }
 
   .kyrs1 {
-    background-color: white;
-    position: relative;
+    background-color: #2d2828;
 
   }
-
   .kyrs2 {
-    background-color: white;
-    position: relative;
-  }
+    background-color: #2d2828;
 
+  }
   .kyrs3 {
-    background-color: white;
-    position: relative;
-  }
+    background-color: #2d2828;
 
+  }
   .kyrs4 {
-    background-color: white;
-    position: relative;
-  }
+    background-color: #2d2828;
 
+  }
   .kyrs5 {
-    background-color: white;
-    position: relative;
+    background-color: #2d2828;
 
   }
-
-  .down_page {
-    background: #c3c3c3;
-    position: relative;
-    margin-top: -20vw;
-  }
-  .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
-    display: block;
-    width: 23.2%;
-  }
-
 }
 
 

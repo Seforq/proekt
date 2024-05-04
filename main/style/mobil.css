@@ -81,9 +81,9 @@ canvas {
 
 .rasp h1 {
   position: relative;
-  color: black;
+  color: honeydew;
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #443737;
   font-size: 40px;
   padding: 20px 28.2px;
   margin-top: 110px;
@@ -92,9 +92,9 @@ canvas {
 
 main {
   margin-right: 23px;
-  margin-top: 30vw;
+  margin-top: 20vw;
   text-align: center;
-  margin-left: 33px;
+  margin-left: 30px;
 }
 
 main a {
@@ -102,6 +102,7 @@ main a {
   padding: 40px 70px;
   text-decoration: none;
   color: black;
+  font-size: 20px;
 }
 
 .kyrs1 {
@@ -127,6 +128,32 @@ main a {
 .kyrs5 {
   background-color: white;
   position: relative;
+}
+
+.down_page {
+  background: #c3c3c3;
+  position: relative;
+  margin-top: 2vw;
+}
+
+.down {
+  color: black;
+  position: relative;
+  font-size: 12px;
+  margin-left: 10vw;
+  margin-top: 50vw;
+  padding: 15px;
+}
+
+.down a {
+  text-decoration: none;
+  color: blueviolet;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.down a:hover {
+  color: rgb(250, 11, 11);
 }
 
 /*# sourceMappingURL=mobil.css.map */

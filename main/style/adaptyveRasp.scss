@@ -402,7 +402,7 @@
 
   main a {
     display: block;
-    padding: 40px 70px;
+    padding: 10px 50px;
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -440,6 +440,13 @@
     position: relative;
     margin-top: 2vw;
   }
+  .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
+    display: block;
+    width: 23.2%;
+  }
+
+
+
 
 }
 

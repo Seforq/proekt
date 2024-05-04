@@ -381,18 +381,23 @@
     background: #c3c3c3;
     position: absolute;
     margin-top: 150vw;
+    text-align: left;
   }
 
   .down {
     color: black;
     position: relative;
-    font-size: 10px;
-    margin-left: 10vw;
-
-
+    padding: 4px;
+    margin-left: 1vw;
+    
   }
 
+
+.down p {
+  font-size: 11px;
+}
   .down a {
+   font-size: 11px;
     text-decoration: none;
     color: blueviolet;
     -webkit-transition: all 0.5s ease;

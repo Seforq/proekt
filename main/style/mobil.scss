@@ -67,14 +67,6 @@ canvas {
 }
 
 
-.background {
-  position: absolute;
-  overflow: hidden;
-  display: flex;
-  width: auto;
-  height: auto;
-  background-repeat: no-repeat;
-}
 
 .rasp {
   position: relative;
@@ -161,4 +153,16 @@ main a {
 
 .down a:hover{
   color: rgb(250, 11, 11, 100);
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  background-position: top center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
 }

@@ -136,6 +136,7 @@
     visibility: hidden;
     width: 130px;
     margin-left: 0;
+    cursor: pointer;
   }
   .selectlink-control, .selectlink {
     visibility: hidden;
@@ -352,19 +353,20 @@
     color: rgb(250, 11, 11);
   }
   .rasp {
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 20px;
   }
   .rasp h1 {
     background-color: white;
     padding: 30px 70px;
     margin-top: 65px;
-    margin-left: 17.5vw;
+    margin-left: 14vw;
     border-radius: 10px;
   }
   .kyrs {
     margin-top: 40vw;
     text-align: center;
-    margin-left: 26vw;
+    margin-left: 24.5vw;
   }
   .kyrs a {
     text-decoration: none;
@@ -373,19 +375,54 @@
     color: white;
   }
   .kyrs1 {
-    background-color: #2d2828;
+    background-color: #413226;
+    border-radius: 12px;
+    border: 1px solid white;
+  }
+  .kyrs1:hover {
+    background-color: rgb(134, 74, 74);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   .kyrs2 {
-    background-color: #2d2828;
+    background-color: #413226;
+    border-radius: 12px;
+    border: 1px solid white;
+  }
+  .kyrs2:hover {
+    background-color: rgb(134, 74, 74);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   .kyrs3 {
-    background-color: #2d2828;
+    background-color: #413226;
+    border-radius: 12px;
+    border: 1px solid white;
+  }
+  .kyrs3:hover {
+    background-color: rgb(134, 74, 74);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   .kyrs4 {
-    background-color: #2d2828;
+    background-color: #413226;
+    border-radius: 12px;
+    border: 1px solid white;
+  }
+  .kyrs4:hover {
+    background-color: rgb(134, 74, 74);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
   .kyrs5 {
-    background-color: #2d2828;
+    background-color: #413226;
+    border-radius: 12px;
+    border: 1px solid white;
+  }
+  .kyrs5:hover {
+    background-color: rgb(134, 74, 74);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
   }
 }
 

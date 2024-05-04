@@ -164,6 +164,7 @@
     visibility: hidden;
     width: 130px;
     margin-left: 0;
+    cursor: pointer;
   }
 
   .selectlink-control, .selectlink {
@@ -389,15 +390,16 @@
     position: relative;
     padding: 4px;
     margin-left: 1vw;
-    
+
   }
 
 
-.down p {
-  font-size: 11px;
-}
+  .down p {
+    font-size: 11px;
+  }
+
   .down a {
-   font-size: 11px;
+    font-size: 11px;
     text-decoration: none;
     color: blueviolet;
     -webkit-transition: all 0.5s ease;
@@ -405,29 +407,30 @@
 
   }
 
-  .down a:hover{
+  .down a:hover {
     color: rgb(250, 11, 11, 100);
   }
 
 
-.rasp {
-  font-weight: 700;
-}
+  .rasp {
+    font-weight: 900;
+    font-size: 20px;
 
-  .rasp h1{
+  }
+
+  .rasp h1 {
     background-color: white;
     padding: 30px 70px;
     margin-top: 65px;
-    margin-left: 17.5vw;
+    margin-left: 14vw;
     border-radius: 10px;
-
 
   }
 
   .kyrs {
     margin-top: 40vw;
     text-align: center;
-   margin-left: 26vw;
+    margin-left: 24.5vw;
 
   }
 
@@ -436,28 +439,75 @@
     display: block;
     padding: 25px 65px;
     color: white;
+
   }
 
   .kyrs1 {
-    background-color: #2d2828;
+    background-color: #413226;
+    border-radius: 12px;
+    border: 1px solid white;
+  }
+
+  .kyrs1:hover {
+     background-color: rgb(134, 74, 74);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 
   }
+
+
   .kyrs2 {
-    background-color: #2d2828;
+    background-color: #413226;
+    border-radius: 12px;
+    border: 1px solid white;
 
   }
+
+  .kyrs2:hover {
+    background-color: rgb(134, 74, 74);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+  }
+
   .kyrs3 {
-    background-color: #2d2828;
+    background-color: #413226;
+    border-radius: 12px;
+    border: 1px solid white;
+  }
+
+  .kyrs3:hover {
+    background-color: rgb(134, 74, 74);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 
   }
   .kyrs4 {
-    background-color: #2d2828;
+    background-color: #413226;
+    border-radius: 12px;
+    border: 1px solid white;
+  }
+
+  .kyrs4:hover {
+    background-color: rgb(134, 74, 74);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 
   }
   .kyrs5 {
-    background-color: #2d2828;
+    background-color: #413226;
+    border-radius: 12px;
+    border: 1px solid white;
+  }
+
+  .kyrs5:hover {
+    background-color: rgb(134, 74, 74);
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 
   }
+
+
 }
 
 

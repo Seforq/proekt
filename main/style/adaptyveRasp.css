@@ -375,7 +375,7 @@
   .down_page {
     background: #c3c3c3;
     position: relative;
-    margin-top: 2vw;
+    margin-top: -20vw;
   }
   .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
     display: block;

@@ -193,6 +193,11 @@ header .bottom {
     cursor: pointer;
   }
 }
+@media screen and (max-width: 1200px) {
+  .body_pointer {
+    cursor: pointer;
+  }
+}
 .mains h1 {
   position: relative;
   text-align: left;
@@ -279,7 +284,7 @@ header .bottom {
 footer .social-icons {
   position: absolute;
   width: 100%;
-  margin-top: 47vw;
+  margin-top: 175vw;
   display: flex;
   justify-content: center;
 }
@@ -403,11 +408,10 @@ footer .social-icons a:hover img {
 
 .bg {
   background: #696969;
-  margin-top: -35px;
+  margin-top: 126vw;
   position: absolute;
   height: 100%;
   width: 100%;
-  overflow: hidden;
   display: flex;
 }
 
@@ -420,7 +424,7 @@ footer .social-icons a:hover img {
   width: 100%;
   position: absolute;
   background-color: rgba(104, 104, 104, 0.75);
-  margin-top: 49.7vw;
+  margin-top: 177.2vw;
 }
 
 .down {
@@ -451,7 +455,7 @@ hr {
   height: 250px;
   background: white;
   border-radius: 25px;
-  margin-top: -500px;
+  margin-top: 97vw;
   margin-right: 25vw;
   box-shadow: 4px 4px 4px 2px rgba(128, 128, 128, 0.5);
 }
@@ -523,7 +527,7 @@ hr {
 
 #map {
   margin-top: 94.5vw;
-  position: relative;
+  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */

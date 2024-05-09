@@ -167,7 +167,7 @@
     width: 36.5%;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 780px) {
   .background {
     position: absolute;
     height: 100%;
@@ -223,8 +223,8 @@
 }
 @media only screen and (max-width: 576px) {
   html {
-    height: 100%;
     width: 100%;
+    height: 100%;
   }
   body {
     font-family: "Evolventa", sans-serif;
@@ -251,13 +251,18 @@
     overflow: hidden;
     display: flex;
   }
+  .page2 {
+    margin-top: 220vw;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+  }
   .bg {
     background: black;
-    margin-top: 200vw;
+    margin-top: -70vw;
     position: absolute;
-    height: 150%;
+    height: 100%;
     width: 100%;
-    overflow: hidden;
     display: flex;
   }
   header .logo img {
@@ -286,7 +291,7 @@
   }
   main.container2 {
     padding: 12px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: white;
     background-color: #00008B;
     max-width: 700px;
@@ -300,17 +305,14 @@
   }
   main.container3 {
     padding: 12px;
-    margin-top: 124vw;
+    margin-top: 120vw;
     color: white;
     background-color: #00008B;
     max-width: 700px;
-    max-height: 300px;
-    height: 200px;
     border-radius: 5px;
     margin-right: 10px;
     margin-left: 10px;
     display: flex;
-    position: absolute;
   }
   .text {
     font-size: 15px;
@@ -337,7 +339,7 @@
   footer .social-icons {
     position: absolute;
     width: 100%;
-    margin-top: 455vw;
+    margin-top: -30vw;
     display: flex;
     justify-content: center;
   }
@@ -542,9 +544,9 @@
   }
   .down_page {
     width: 100%;
-    position: absolute;
+    position: relative;
     background-color: rgba(104, 104, 104, 0.75);
-    margin-top: 500vw;
+    margin-top: -70vw;
   }
   .down {
     color: black;

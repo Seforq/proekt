@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @media only screen and (max-width: 1200px) {
   body {
     font-family: "Evolventa", sans-serif;
@@ -243,7 +244,7 @@
   }
   .bg {
     background: black;
-    margin-top: -740px;
+    margin-top: 200vw;
     position: absolute;
     height: 150%;
     width: 100%;
@@ -325,8 +326,9 @@
     width: 81.4%;
   }
   footer .social-icons {
-    margin-top: 210vw;
-    position: relative;
+    position: absolute;
+    width: 100%;
+    margin-top: 455vw;
     display: flex;
     justify-content: center;
   }
@@ -445,7 +447,103 @@
     bottom: 9px;
   }
   #map {
+    width: 0;
+  }
+  .photo img {
+    position: absolute;
+  }
+  .mapped {
+    visibility: hidden;
+  }
+  .qr {
+    margin-top: 170vw;
+    width: 110px;
+    margin-left: 10vw;
+  }
+  .text_sibgiu {
+    margin-top: 40vw;
+    position: absolute;
+    margin-left: 10px;
+  }
+  .text_sibgiu span {
+    color: #000000;
+  }
+  .text_sibgiu li {
+    list-style-type: none;
+    margin-left: 3px;
+    padding: 3.2px;
+  }
+  .text_sibgiu li:before {
+    content: "■";
+    color: #ea1212;
+    font-size: 130%;
+    padding-right: 10px;
+  }
+  .text_sibgiu2 li {
+    list-style-type: none;
+    margin-left: 3px;
+  }
+  .text_sibgiu2 li:before {
+    content: "■";
+    color: #00ffb3;
+    font-size: 130%;
+    padding-right: 10px;
+  }
+  .text_sibgiu3 li {
+    list-style-type: none;
+    margin-left: 3px;
+  }
+  .text_sibgiu3 li:before {
+    content: "■";
+    color: #be00ff;
+    font-size: 130%;
+    padding-right: 10px;
+  }
+  .text_sibgiu4 li {
+    list-style-type: none;
+    margin-left: 3px;
+  }
+  .text_sibgiu4 li:before {
+    content: "■";
+    color: #627c3a;
+    font-size: 130%;
+    padding-right: 10px;
+  }
+  .text_sibgiu5 li {
+    list-style-type: none;
+    margin-left: 3px;
+  }
+  .text_sibgiu5 li:before {
+    content: "■";
+    color: #ff00a6;
+    font-size: 130%;
+    padding-right: 10px;
+  }
+  .text_sibgiu6 li {
+    list-style-type: none;
+    margin-left: 3px;
+  }
+  .text_sibgiu6 li:before {
+    content: "■";
+    color: #ff7300;
+    font-size: 130%;
+    padding-right: 10px;
+  }
+  .down_page {
     width: 100%;
+    position: absolute;
+    background-color: rgba(104, 104, 104, 0.75);
+    margin-top: 467vw;
+  }
+  .down {
+    color: black;
+    position: relative;
+    font-size: 12px;
+    padding: 10px;
+  }
+  .down a {
+    text-decoration: none;
+    color: blueviolet;
   }
 }
 

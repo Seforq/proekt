@@ -221,7 +221,11 @@
     color: white;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 576px) {
+  html {
+    height: 100%;
+    width: 100%;
+  }
   body {
     font-family: "Evolventa", sans-serif;
     width: 100%;
@@ -230,6 +234,11 @@
     overflow-x: hidden;
     margin: 0;
     line-height: 1;
+  }
+  .background img {
+    height: auto;
+    position: fixed;
+    margin-left: -70vw;
   }
   .background {
     width: 100%;
@@ -461,12 +470,14 @@
     margin-left: 10vw;
   }
   .text_sibgiu {
-    margin-top: 40vw;
+    margin-top: auto;
     position: absolute;
     margin-left: 10px;
+    color: white;
   }
   .text_sibgiu span {
-    color: #000000;
+    color: black;
+    background: white;
   }
   .text_sibgiu li {
     list-style-type: none;
@@ -533,7 +544,7 @@
     width: 100%;
     position: absolute;
     background-color: rgba(104, 104, 104, 0.75);
-    margin-top: 467vw;
+    margin-top: 500vw;
   }
   .down {
     color: black;

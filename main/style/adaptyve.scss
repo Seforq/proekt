@@ -298,75 +298,67 @@
   }
 
 
-.page2 {
-  margin-top: 220vw;
-  height: 100%;
-  overflow: hidden;
-  display: flex;
-}
+
   .bg {
-    background: black;
-    margin-top: -70vw;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    display: flex;
+    background: none;
+    margin-top: -72vw;
+    position: relative;
+    height: auto;
+    width: auto;
+overflow: visible;
+display: inline-block;
+
   }
 
 
 
   header .logo img {
     visibility: hidden;
-    width: 130px;
+    width: 0;
     margin-left: 0;
   }
 
   .selectlink-control, .selectlink {
     visibility: hidden;
+    width: 0;
   }
 
   main.container1 {
-    text-align: unset;
-    box-sizing: unset;
-    padding: 10px;
-    margin-top: 60vw;
+    position: relative;
+    margin-top: -10px;
+    padding: 12px;
     color: white;
     background-color: #00008B;
     max-width: 700px;
-    max-height: 300px;
-    height: 200px;
     border-radius: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    display: flex;
-    position: absolute;
+
   }
 
   main.container2 {
+margin-top: 30px;
     padding: 12px;
-    margin-top: 20px;
     color: white;
     background-color: #00008B;
-    max-width: 700px;
-    max-height: 300px;
-    height: 200px;
+    max-width: 400px;
+    max-height: 500px;
     border-radius: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    display: flex;
-    position: absolute;
+
   }
 
   main.container3 {
+    margin-top: 30px;
     padding: 12px;
-    margin-top: 120vw;
     color: white;
     background-color: #00008B;
     max-width: 700px;
     border-radius: 5px;
     margin-right: 10px;
     margin-left: 10px;
-    display: flex;
+
   }
 
   .text {
@@ -374,11 +366,15 @@
     font-size: 15px;
   }
 
-
+.mains{
+  position: relative;
+  margin-top: 0;
+}
   .mains h1 {
-    margin-top: -100px;
+    margin-top: 10vw;
+    position: relative;
     font-size: 60px;
-    margin-left: 10px;
+    margin-left: -5px;
   }
   .dropdown {
     margin: 50px;
@@ -392,23 +388,31 @@
   .dropdown-content1 {
     font-size: 14px;
     margin-left: -20px;
+    position: relative;
 
   }
   .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
-    width: 81.4%;
+    width: 80.7%;
+    align-items: center;
+    position: absolute;
+
   }
 
   footer {
     .social-icons {
-      position:absolute;
+      position:relative;
       width: 100%;
-      margin-top: -30vw;
+      margin-top: 0;
       display: flex;
       justify-content: center;
     }
 
     .social-icons a {
-      margin: 0 20px;
+      position: relative;
+      margin-top: 30vw;
+
+
+
     }
 
     .social-icons img {
@@ -543,33 +547,31 @@
 
   }
 
-  .qr {
-    margin-top: 170vw;
-    width: 110px;
-    margin-left: 10vw;
-  }
+ .qr {
+   visibility: hidden;
+   width: 0;
+ }
 
   .text_sibgiu {
     margin-top: auto;
     position: absolute;
-margin-left: 10px;
+
+
     color: white;
+    background: #3d3226;
   }
 
   .text_sibgiu span {
-    color: black;
-    background: white;
-
-
-
+    color: white;
+position: relative;
+  margin: 2px;
 
   }
-
 
   .text_sibgiu li {
     list-style-type: none;
      margin-left: 3px;
-    padding: 3.2px;
+
   }
 
   .text_sibgiu li:before {
@@ -653,9 +655,9 @@ margin-left: 10px;
 
   .down_page {
     width: 100%;
-    position: relative;
+    position: absolute;
     background-color: rgba(104, 104, 104, 0.75);
-    margin-top: -70vw;
+    margin-top: 50vw;
   }
 
   .down {

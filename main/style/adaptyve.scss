@@ -297,11 +297,14 @@
     display: flex;
   }
 
+.page2 {
+  position: relative;
 
+}
 
   .bg {
     background: none;
-    margin-top: -72vw;
+    margin-top: -50vw;
     position: relative;
     height: auto;
     width: auto;
@@ -325,7 +328,20 @@ display: inline-block;
 
   main.container1 {
     position: relative;
-    margin-top: -10px;
+
+    padding: 12px;
+    color: white;
+    background-color: #00008B;
+    max-width: 600px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+  }
+
+  main.container2 {
+    position: relative;
+    margin-top: 30px;
     padding: 12px;
     color: white;
     background-color: #00008B;
@@ -336,20 +352,8 @@ display: inline-block;
 
   }
 
-  main.container2 {
-margin-top: 30px;
-    padding: 12px;
-    color: white;
-    background-color: #00008B;
-    max-width: 400px;
-    max-height: 500px;
-    border-radius: 5px;
-    margin-right: 10px;
-    margin-left: 10px;
-
-  }
-
   main.container3 {
+    position: relative;
     margin-top: 30px;
     padding: 12px;
     color: white;
@@ -362,7 +366,7 @@ margin-top: 30px;
   }
 
   .text {
-
+position: relative;
     font-size: 15px;
   }
 
@@ -553,18 +557,17 @@ margin-top: 30px;
  }
 
   .text_sibgiu {
-    margin-top: auto;
     position: absolute;
-
-
     color: white;
     background: #3d3226;
+    margin-top: 35vw;
   }
 
   .text_sibgiu span {
     color: white;
 position: relative;
-  margin: 2px;
+    margin: 2px;
+
 
   }
 

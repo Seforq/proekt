@@ -378,7 +378,7 @@ position: relative;
   }
 
 .mains{
-  position: relative;
+  position: absolute;
   margin-top: 0;
 }
   .mains h1 {
@@ -392,6 +392,7 @@ position: relative;
   }
   .dropdown h3 {
     font-size: 19px;
+    margin-top: 70vw;
     margin-left: -10px;
     outline-width: 5px;
   }
@@ -403,7 +404,7 @@ position: relative;
 
   }
   .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
-    width: 76%;
+    width: 79%;
     align-items: center;
     position: absolute;
 
@@ -659,7 +660,10 @@ position: relative;
 
 
 
+hr {
 
+  width: 0;
+}
 
 
 

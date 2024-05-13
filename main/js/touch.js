@@ -4,7 +4,7 @@ document.querySelector('body').addEventListener('click', function(e) {
         let menu = clickedElement.parentElement;
         menu.style.display = 'none';
         menu.classList.remove('touched');
-        // then remove the style after giving it a chance to close so hovering will reopen the menu
+
         setTimeout(function() {
             menu.style = '';
         }, 200);

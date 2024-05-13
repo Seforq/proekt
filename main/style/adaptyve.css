@@ -39,7 +39,7 @@
   footer .social-icons {
     position: absolute;
     width: 100%;
-    margin-top: 246vw;
+    margin-top: 195vw;
     display: flex;
     justify-content: center;
   }
@@ -56,7 +56,7 @@
   }
   .bg {
     background: black;
-    margin-top: 163.3vw;
+    margin-top: 117vw;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -80,11 +80,17 @@
     margin-top: 158px;
     width: 100%;
   }
+  hr {
+    height: 4px;
+    width: 100%;
+    margin-top: 202.5vw;
+    border: none;
+  }
   .down_page {
     width: 100%;
     position: absolute;
     background-color: rgba(104, 104, 104, 0.75);
-    margin-top: 253.7vw;
+    margin-top: 202.8vw;
     text-align: end;
   }
   .down {
@@ -164,7 +170,7 @@
   }
   .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
     display: block;
-    width: 36.5%;
+    width: 40%;
   }
 }
 @media only screen and (max-width: 780px) {
@@ -324,19 +330,20 @@
   .dropdown h3 {
     font-size: 19px;
     margin-left: -10px;
+    outline-width: 5px;
   }
   .dropdown-content1 {
     font-size: 14px;
-    margin-left: -20px;
+    margin-left: -15px;
     position: relative;
   }
   .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
-    width: 80.7%;
+    width: 76%;
     align-items: center;
     position: absolute;
   }
   footer .social-icons {
-    position: relative;
+    position: absolute;
     width: 100%;
     margin-top: 0;
     display: flex;

@@ -241,7 +241,7 @@ header {
   display: inline-block;
   position: relative;
   outline-style: ridge;
-  outline-width: 7px;
+  outline-width: 5px;
   outline-color: black;
   background: #808065;
   cursor: pointer;
@@ -251,14 +251,15 @@ header {
 }
 
 .dropdown:hover {
-  color: #e8e859;
+  color: #fffc00;
 }
 
+
 .dropdown-content1 {
+  margin-left: -0.23vw;
   border-radius: 7px;
   display: none;
   font-size: 20px;
-  height: auto;
   width: auto;
   position: absolute;
   background-color: moccasin;
@@ -268,9 +269,9 @@ header {
 
 .dropdown-content1 a {
   color: black;
+  display: block;
   padding: 12px 5px;
   text-decoration: none;
-  display: block;
 }
 
 .dropdown-content1 a:hover {
@@ -291,18 +292,18 @@ header {
 
 .qr {
   position: absolute;
-  margin-top: 77vw;
-  margin-left: 83vw;
+  margin-top: 76.5vw;
+  margin-left: 82.5vw;
 }
 
 .qr img{
   width: 330px;
 }
 
-
+//размерчик)
 .dropdown:hover .dropdown-content1, .dropdown-content1.touched {
   display: block;
-  width: 23.2%;
+  width: 23%;
 }
 
 
@@ -311,7 +312,7 @@ footer {
   .social-icons {
     position:absolute;
     width: 100%;
-    margin-top: 175vw;
+    margin-top: 157vw;
     display: flex;
     justify-content: center;
   }
@@ -445,7 +446,7 @@ footer {
 
 .bg {
   background: #696969;
-  margin-top: 126vw;
+  margin-top: 111vw;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -459,11 +460,21 @@ footer {
 
 }
 
+
+hr {
+  position: absolute;
+  background: #5b5454;
+  margin-top: 160.65vw;
+  height: 4px;
+  width: 100%;
+  border: none;
+}
 .down_page {
+  text-align: end;
   width: 100%;
   position: absolute;
   background-color: rgba(104, 104, 104, 0.75);
-  margin-top: 177.2vw;
+  margin-top: 160.65vw;
 }
 
 .down {
@@ -478,13 +489,6 @@ footer {
   color: blueviolet;
 }
 
-hr {
-  position: absolute;
-  background-color: #969696;
-  height: 2px;
-  border: none;
-  margin-top: -90vw;
-}
 
 .text_map {
   font-family: 'BrassMono-Bold', sans-serif;

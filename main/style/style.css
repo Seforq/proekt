@@ -288,7 +288,7 @@ header .bottom {
 footer .social-icons {
   position: absolute;
   width: 100%;
-  margin-top: 157vw;
+  margin-top: 112vw;
   display: flex;
   justify-content: center;
 }
@@ -410,35 +410,17 @@ footer .social-icons a:hover img {
   background: #3574e8;
 }
 
-.bg {
-  background: #696969;
-  margin-top: 111vw;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: flex;
-}
-
 .wrapper {
   visibility: hidden;
   position: absolute;
-}
-
-hr {
-  position: absolute;
-  background: #5b5454;
-  margin-top: 160.65vw;
-  height: 4px;
-  width: 100%;
-  border: none;
 }
 
 .down_page {
   text-align: end;
   width: 100%;
   position: absolute;
-  background-color: rgba(104, 104, 104, 0.75);
-  margin-top: 160.65vw;
+  background-color: rgb(104, 104, 104);
+  margin-top: 110.6vw;
 }
 
 .down {
